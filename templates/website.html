@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio Website</h1>
+        <img src="https://www.getfoundquick.com/wp-content/uploads/2019/01/shutterstock_77484232.jpg" 
+             width="460" height="345" alt="Portfolio Image">
+        <nav> 
+            <ul>
+                <li><a href="#about">About</a></li> 
+                <li><a href="#Project">Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="ABOUT!">
+            <h2>About Me</h2>
+            <p>My name is Lavanya. I am studying B.Tech 2nd year with CSE - AI specialization. This is the assignment that my lecturer (GURANNA GOUDA SIR) gave me about creating a portfolio website, which is based on the languages of HTML, CSS, and Python. In Python, there are frontend and backend components, so in this assignment, I am using both of these.</p>
+            <a href="https://github.com/lavanya1825/lavanya1825/edit/main/ABOUT">about</a>
+        </section>
+        
+        <section id="PROJECT!">
+            <h2>Projects</h2>
+            <p>Currently, no projects have been completed.</p>
+            <a href="https://github.com/lavanya1825/lavanya1825/projects?query=is%3Aopen">project</a>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: ksrilavanya123@gmail.com</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 lavanya1825</p>
+    </footer>
+</body>
+</html>
